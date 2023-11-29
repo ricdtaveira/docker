@@ -1,0 +1,28 @@
+version: '3'
+services:
+  publisher:
+    build:
+      context: ./publisher
+    depends_on:
+      - mqtt_broker
+    networks:
+      - mqtt_network
+
+  subscriber:
+    build:
+      context: ./subscriber
+    depends_on:
+      - mqtt_broker
+    networks:
+      - mqtt_network
+
+  mqtt_broker:
+    image: eclipse-mosquitto
+    ports:
+      - "1883:1883"
+    networks:
+      - mqtt_network
+
+networks:
+  mqtt_network:
+    driver: bridge
