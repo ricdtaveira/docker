@@ -1,6 +1,6 @@
 # Docker Compose (Node.js + PostgreSQL) #
 
-## Passo 1 - Criando uma pasta para o projeto ##
+## Passo 1 - Criar uma pasta para o projeto ##
 >
 ```
 $ mkdir projeto_direx
@@ -12,8 +12,8 @@ $
 
 ## Passo 2 - Criar o arquivo docker-compose.yml ##
 >
-Usar o editor `nano` ou editor vi para criar o arquivo `docker-compose.yml`
-incluindo o texto abaixo.
+Usar o editor `nano` ou editor `vi` para criar o arquivo `docker-compose.yml`,
+nele incluir o texto abaixo.
 >
 >
 ```
