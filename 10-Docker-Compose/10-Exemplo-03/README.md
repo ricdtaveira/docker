@@ -12,7 +12,7 @@ $
 
 ## Passo 2 - Criar o arquivo docker-compose.yml ##
 >
-Usar o editor nano ou editor vi para criar o arquivo `docker-compose.yml`
+Usar o editor `nano` ou editor vi para criar o arquivo `docker-compose.yml`
 incluindo o texto abaixo.
 >
 >
@@ -61,7 +61,7 @@ conteúdo definido abaixo.
     "express": "^4.17.1",
     "pg": "^8.7.1"
   }
-}t 
+}
 ```
 ## Passo 4 - Criar o código JavaScript para acessar o Banco de Dados ##
 
@@ -70,6 +70,7 @@ Na pasta app criar o arquivo `index.js` e nele incluir o código
 abaixo.
 >
 >
+```
 const express = require('express');
 const { Pool } = require('pg');
 
@@ -99,10 +100,10 @@ const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+```
 >
 
 ## Passo 5: Executando a aplicação ##
-
 >
 Navegue até a pasta onde está o arquivo `docker-compose.yml`.
 >
@@ -110,7 +111,7 @@ Navegue até a pasta onde está o arquivo `docker-compose.yml`.
 Execute o comando `docker-compose up` para iniciar os serviços.
 >
 >
-A aplicação Node.js estará disponível em localhost:3000. 
+A aplicação Node.js estará disponível em `localhost:3000`. 
 > 
 > 
 Você pode acessar essa URL em um navegador para ver a mensagem 
