@@ -66,7 +66,7 @@ conteúdo definido abaixo.
 ## Passo 4 - Criar o código JavaScript para acessar o Banco de Dados ##
 
 >
-Na pasta app criar o arquivo `index.js` e nele incluir o código 
+Na pasta `app` criar o arquivo `index.js` e nele incluir o código 
 abaixo.
 >
 >
