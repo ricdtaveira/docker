@@ -10,6 +10,7 @@ $
 ```
 >
 
+
 ## Passo 2 - Criar o arquivo docker-compose.yml ##
 >
 Usar o editor `nano` ou editor `vi` para criar o arquivo `docker-compose.yml`,
