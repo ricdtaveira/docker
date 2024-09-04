@@ -1,3 +1,4 @@
+# Play with Docker com MySql e PHPMyAdmin usando Docker Compose.
 Aqui está um exemplo de um arquivo `docker-compose.yml` que cria um contêiner para o phpMyAdmin e outro para o MySQL:
 
 ```yaml
