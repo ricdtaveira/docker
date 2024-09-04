@@ -61,8 +61,8 @@ volumes:
 Fazer login no Docker Hub para viabilizar a criação dos containers.
 >
 >
-Com o arquivo `docker-compose.yml`, você executa o comando `docker-compose up -d` para iniciar os contêineres. 
+Com o arquivo `docker-compose.yml`, você executa o comando `docker-compose up -d` para criar os contêineres. 
 >
 >
-O phpMyAdmin ficará acessível em `http://localhost:8080` chamando o botão `8080` que aparecerá nas portas abertas. 
+O phpMyAdmin ficará acessível em `http://localhost:8080` clicando o botão `8080` que aparecerá nas portas abertas. 
 >
