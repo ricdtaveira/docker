@@ -56,6 +56,13 @@ volumes:
 
 - **volumes**: Define o volume para persistir os dados do MySQL.
 
-Com esse arquivo, você pode rodar `docker-compose up -d` para iniciar os contêineres. 
-
-O phpMyAdmin ficará acessível em `http://localhost:8080`.
+### Observação ###
+>
+Fazer login no Docker Hub para viabilizar a criação dos containers.
+>
+>
+Com o arquivo `docker-compose.yml`, você executa o comando `docker-compose up -d` para iniciar os contêineres. 
+>
+>
+O phpMyAdmin ficará acessível em `http://localhost:8080` chamando o botão `8080` que aparecerá nas portas abertas. 
+>
